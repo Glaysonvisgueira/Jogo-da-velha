@@ -84,9 +84,12 @@ def jogada():
                 for i in range(0,9):
                     vetor[i] = (i + 1)
                 jogada()
-            else:
+            elif reiniciar == "N":
                 print("Você saiu do jogo!")
                 break
+            else:
+                print("Opção inválida, escolha S/N para continuar:")
+                
                  
 menu_principal()
 
